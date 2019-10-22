@@ -1,0 +1,73 @@
+#!/usr/bin/python3
+"""
+Colors Module
+"""
+###############################################################################
+
+__author__ = "Jared Winter"
+__copyright__ = "Copyright 2019, jwinternet"
+__credits__ = ""
+__license__ = "GNU GPL v3"
+__version__ = "v0.0.3"
+__updated__ = "10/22/2019"
+__email__ = "jaredwinter2015@outlook.com"
+__contributors__ = ""
+__status__ = "PROD"
+
+###############################################################################
+
+class Colors:
+	"""
+	Class for adding formatting to printed text to other scripts.
+	"""
+	reset = '\\033\[00m'
+	bold = '\\033\[01m'
+	underline = '\\033\[04m'
+	slow_blink = '\\033\[05m'
+
+	class Fg:
+		"""
+		Class for adding foreground colors to printed text in other scripts.
+		"""
+		black = '\\033\[30m'
+		dark_red = '\\033\[31m'
+		dark_green = '\\033\[32m'
+		dark_yellow = '\\033\[33m'
+		dark_blue = '\\033\[34m'
+		dark_purple = '\\033\[35m'
+		dark_cyan = '\\033\[36m'
+		dark_grey = '\\033\[90m'
+		light_grey = '\\033\[37m'
+		light_red = '\\033\[91m'
+		light_green = '\\033\[92m'
+		light_yellow = '\\033\[93m'
+		light_blue = '\\033\[94m'
+		light_purple = '\\033\[95m'
+		light_cyan = '\\033\[96m'
+		light_white = '\\033\[97m'
+
+	class Bg:
+		"""
+		Class for adding background colors to printed text in other scripts.
+		"""
+		black = '\\033\[40m'
+		dark_red = '\\033\[41m'
+		dark_green = '\\033\[42m'
+		dark_yellow = '\\033\[43m'
+		dark_blue = '\\033\[44m'
+		dark_purple = '\\033\[45m'
+		dark_cyan = '\\033\[46m'
+		dark_grey = '\\033\[100m'
+		light_grey = '\\033\[47m'
+		light_red = '\\033\[101m'
+		light_green = '\\033\[102m'
+		light_yellow = '\\033\[103m'
+		light_blue = '\\033\[104m'
+		light_purple = '\\033\[105m'
+		light_cyan = '\\033\[106m'
+		light_white = '\\033\[107m'
+
+###############################################################################
+
+if __name__ == "__main__":
+	main()
